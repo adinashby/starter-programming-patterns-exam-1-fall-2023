@@ -64,10 +64,10 @@ class ExamOneSec1And2Tests {
 
     @Test
     void tupleSameProductTest3() {
-        int[] nums = {1, 2, 2, 4};
+        int[] nums = {1, 2, 3, 4};
 
         int actual = ExamOneSec1And2.tupleSameProduct(nums);
-        int expected = 24;
+        int expected = 0;
 
         assertEquals(expected, actual);
     }
